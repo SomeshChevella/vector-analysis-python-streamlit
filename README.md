@@ -3,6 +3,7 @@
 Exploratory analysis of ~16,600 movie embeddings (1536-D) stored in PostgreSQL with **pgvector**: export the vectors, project them to 2-D with **PCA → UMAP**, find clusters with **HDBSCAN**, measure embedding quality, and browse the result in an interactive **Streamlit** app.
 
 ## What it does
+![Movie Embedding Explorer: UMAP projection of ~16,600 movies, coloured by cluster](docs/streamlit-explorer.png)
 
 | Step | Script | Output |
 |------|--------|--------|

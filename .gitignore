@@ -1,0 +1,25 @@
+# Secrets -- .env holds production database credentials
+.env
+.env.*
+!.env.example
+
+# Generated data (embeddings.npy is ~100 MB; well over GitHub's 50 MB warning)
+output/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
